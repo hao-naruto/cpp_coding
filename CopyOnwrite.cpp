@@ -106,5 +106,8 @@ int main(int argc, char *argv[]){
     return 0;
 }
 /*
-
+    Dynamic_String dst = ds;  调用拷贝构造函数 
+    
+    Dynamic_String dst
+    dst = ds; 调用赋值构造函数
 */
